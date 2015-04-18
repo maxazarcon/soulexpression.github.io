@@ -1,0 +1,95 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background-image: url('../images/streets.jpg');
+	background-size: cover;
+	overflow-y: scroll;
+}
+p {
+	font-size: 1.25em;
+}
+.hidden {
+	display: none;
+}
+#mainBody {
+	width: 800px;
+	margin: 0 auto;
+	background-color: rgba(200,200,200,.7);
+	padding: 50px;
+	border-radius: 25px;
+}
+#logo {
+	height: 100px;
+	width: 100px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 15px black;
+}
+#nav {
+	text-align: center;
+}
+.navButton {
+	margin: 5px 5px;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	border: 1px black solid;
+	box-shadow: 2px 2px 7px black inset;
+	border-radius: 10px;
+}
+.navButton:hover {
+	background-color: rgba(0,0,0,.1);
+}
+.navButton:active {
+	margin: 5px 5px;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	border: 1px black solid;
+	box-shadow: 5px 5px 10px black inset;
+	border-radius: 10px;
+}
+.navButton img {
+	height: 60px;
+}
+#sectionWrapper {
+	background-color: rgba(0,0,0,.1);
+	border-radius: 10px;
+	box-shadow: inset 0px 0px 11px black;
+	padding-top: 10px;
+}
+.section {
+	padding: 30px;
+	box-shadow: 0px 0px 15px black inset;
+	background-color: rgba(200,200,200,.5);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.row div {
+	display: inline;
+}
+#skillSection {
+	width: 100%;
+}
+.toolLvl,
+.skillLvl {
+	float: right;
+}
+h1.title {
+	margin-top: 0;
+	padding: 10px;
+	background-color: rgba(200,200,200,.5);
+	box-shadow: 0px 0px 15px black inset;
+	text-align: center;
+}
+h2.title {
+	text-align: center;
+}
+.title img {
+	height: 50px;
+	margin-right: 10px;
+}
+.project {
+	text-align: center;
+}
