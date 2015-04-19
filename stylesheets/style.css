@@ -29,8 +29,8 @@ p {
 	border-radius: 10px;
 	box-shadow: 5px 5px 15px black;
 }
-.headerItem h1 {
-	text-align: center;
+#name {
+	margin: 0 auto;
 }
 #nav {
 	text-align: center;
