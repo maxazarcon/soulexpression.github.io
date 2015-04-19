@@ -28,9 +28,7 @@ p {
 	width: 100px;
 	border-radius: 10px;
 	box-shadow: 5px 5px 15px black;
-}
-#name {
-	margin: 0 auto;
+	margin-right: 100px;
 }
 #nav {
 	text-align: center;
