@@ -117,15 +117,15 @@ h2.title {
 	height: 40px;
 	width: 40px;
 }
-.company {
-	font-size: 15px;
-	font-weight: 600;
-}
 .description {
-	font-size: 12px;
-	font-weight: 400;
+	font-size: 25px;
+	font-weight: 700;
+}
+.company {
+	font-size: 20px;
+	font-weight: 500;
 }
 .employDate {
-	font-size: 10px;
+	font-size: 15px;
 	font-weight: 100;
 }
