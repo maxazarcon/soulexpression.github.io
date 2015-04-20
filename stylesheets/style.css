@@ -99,10 +99,12 @@ h2.title {
 .project {
 	text-align: center;
 }
+#socialNets ul {
+	margin: 0 auto;
+}
 #socialNets li {
 	display: inline;
 	margin-right: 60px;
-	text-align: center;
 }
 #emailAndPhone ul {
 	list-style-type: none;
