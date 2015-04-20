@@ -99,6 +99,7 @@ h2.title {
 .project {
 	text-align: center;
 }
-#contact li {
+#socialNets li {
 	display: inline;
+	margin-right: 60px;
 }
