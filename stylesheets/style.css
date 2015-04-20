@@ -100,7 +100,7 @@ h2.title {
 	text-align: center;
 }
 #socialNets ul {
-	margin: 0 auto;
+	text-align: center;
 }
 #socialNets li {
 	display: inline;
@@ -112,4 +112,5 @@ h2.title {
 #emailAndPhone img {
 	height: 30px;
 	width: 30px;
+	padding-top: 5px;
 }
