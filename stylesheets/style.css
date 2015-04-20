@@ -129,7 +129,11 @@ h2.title {
 	font-size: 15px;
 	font-weight: 100;
 }
+#certs {
+	text-align: center;
+}
 #certs img {
 	width: 10em;
 	height: 10em;
+	margin-right: 20px;
 }
