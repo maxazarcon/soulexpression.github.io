@@ -102,8 +102,12 @@ h2.title {
 #socialNets li {
 	display: inline;
 	margin-right: 60px;
-	margin: 0 auto;
+	text-align: center;
 }
 #emailAndPhone ul {
 	list-style-type: none;
+}
+#emailAndPhone img {
+	height: 30px;
+	width: 30px;
 }
