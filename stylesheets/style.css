@@ -3,7 +3,7 @@ body {
 	padding: 0;
 	height: 100%;
 	background-image: url('../images/streets.jpg');
-	background-size:  100% auto;
+	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	overflow-y: scroll;
@@ -79,8 +79,7 @@ p {
 #skillSection {
 	width: 100%;
 }
-.toolLvl,
-.skillLvl {
+.toolLvl, .skillLvl {
 	float: right;
 }
 h1.title {

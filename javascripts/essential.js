@@ -1,14 +1,14 @@
 // Set body width to viewport ------------------------
 
-$(document).ready(function(){
+$(document).ready(function() {
 	var setWidth = $("body").width();
-	
+
 	$("body").width(setWidth);
 });
 
 // Hide and show tabs --------------------------------
 
-$(document).ready(function(){
+$(document).ready(function() {
 	$("#homeButton").hide();
 	$("#contactTab").hide();
 	$("#portfolioTab").hide();
