@@ -145,3 +145,7 @@ h2.title {
 	border-radius: 10px;
 	max-width: 100%;
 }
+td {
+	padding: 0 10px;	
+}
+}
