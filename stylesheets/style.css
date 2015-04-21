@@ -3,8 +3,9 @@ body {
 	padding: 0;
 	height: 100%;
 	background-image: url('../images/streets.jpg');
-	background-size: 100% 100%;
+	background-size:  100% auto;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	overflow-y: scroll;
 }
 p {
