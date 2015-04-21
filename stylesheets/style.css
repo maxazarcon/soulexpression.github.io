@@ -138,6 +138,8 @@ h2.title {
 	margin-right: 20px;
 	border-radius: 10px;
 }
-.projImg {
+.projImg img {
+	box-shadow: 0 0 15px black;
+	border-radius: 10px;
 	max-width: 100%;
 }
