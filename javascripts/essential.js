@@ -6,6 +6,17 @@ $(document).ready(function() {
 	$("body").width(setWidth);
 });
 
+
+// Load files into tabs
+
+$(document).ready(function(){
+	$("#homeTab").load("tabs/home.html");
+	$("#contactTab").load("tabs/contact.html");
+	$("#portfolioTab").load("tabs/portfolio.html");
+	$("#skillsTab").load("tabs/skills.html");
+	$("#resumeTab").load("tabs/resume.html");
+});
+
 // Hide and show tabs --------------------------------
 
 $(document).ready(function() {
