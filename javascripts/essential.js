@@ -59,7 +59,7 @@ $(function() {
 		});
 	});
 
-	$("#portfolioButton, #myPortfolio").click(function() {
+	$("#portfolioButton, a#myPortfolio").click(function() {
 		$("#homeTab").hide();
 		$("#contactTab").hide();
 		$("#portfolioTab").show();
