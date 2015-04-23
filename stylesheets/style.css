@@ -148,4 +148,10 @@ h2.title {
 td {
 	padding: 0 10px;	
 }
+#myPortfolio{
+	color: blue;
+	text-decoration: underline;
+}
+#myPortfolio:hover{
+	color: black;
 }
