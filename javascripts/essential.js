@@ -6,9 +6,10 @@ $(document).ready(function() {
 	$("body").width(setWidth);
 });
 
+
 // Load files into tabs
 
-$(document).ready(function() {
+$(document).ready(function(){
 	$("#homeTab").load("tabs/home.html");
 	$("#contactTab").load("tabs/contact.html");
 	$("#portfolioTab").load("tabs/portfolio.html");
@@ -41,12 +42,8 @@ $(function() {
 			$("#skillsButton").fadeIn("slow");
 			$("#resumeButton").fadeIn("slow");
 		});
-
-		$(window).on('hashchange', function() {
-			if (location.hash === '') {
-				$("div.content-container").html('');
-			}
-		});
+		
+		location.hash = '#home';
 	});
 
 	$("#contactButton").click(function() {
@@ -62,6 +59,8 @@ $(function() {
 			$("#skillsButton").fadeIn("slow");
 			$("#resumeButton").fadeIn("slow");
 		});
+		
+		location.hash = '#contact';
 	});
 
 	$("#portfolioButton").click(function() {
@@ -77,7 +76,8 @@ $(function() {
 			$("#skillsButton").fadeIn("slow");
 			$("#resumeButton").fadeIn("slow");
 		});
-
+		
+		location.hash = '#portfolio';
 	});
 
 	$("#skillsButton").click(function() {
@@ -93,6 +93,8 @@ $(function() {
 			$("#portfolioButton").fadeIn("slow");
 			$("#resumeButton").fadeIn("slow");
 		});
+		
+		location.hash = '#skills';
 	});
 
 	$("#resumeButton").click(function() {
@@ -108,5 +110,13 @@ $(function() {
 			$("#portfolioButton").fadeIn("slow");
 			$("#skillsButton").fadeIn("slow");
 		});
+		
+		location.hash = '#resume';
 	});
+});
+
+$(window).on('hashchange', function(){
+	if (location.hash === '') {
+		$("div#sectionWrapper").html('');
+	}
 });
