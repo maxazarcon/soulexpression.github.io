@@ -80,8 +80,13 @@ p {
 #skillSection {
 	width: 100%;
 }
+.skillName, .toolName {
+	padding-left: 15px;
+}
 .toolLvl, .skillLvl {
 	float: right;
+	padding-right: 30px;
+}
 }
 .skillLvl img, .toolLvl img {
 	height: 15px;
