@@ -83,7 +83,7 @@ p {
 .toolLvl, .skillLvl {
 	float: right;
 }
-.skillLvl img {
+.skillLvl img, .toolLvl img {
 	height: 15px;
 	width: 15px;
 }
