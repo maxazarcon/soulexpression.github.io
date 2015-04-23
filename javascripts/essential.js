@@ -6,10 +6,9 @@ $(document).ready(function() {
 	$("body").width(setWidth);
 });
 
-
 // Load files into tabs
 
-$(document).ready(function(){
+$(document).ready(function() {
 	$("#homeTab").load("tabs/home.html");
 	$("#contactTab").load("tabs/contact.html");
 	$("#portfolioTab").load("tabs/portfolio.html");
@@ -41,6 +40,12 @@ $(function() {
 			$("#portfolioButton").fadeIn("slow");
 			$("#skillsButton").fadeIn("slow");
 			$("#resumeButton").fadeIn("slow");
+		});
+
+		$(window).on('hashchange', function() {
+			if (location.hash === '') {
+				$("div.content-container").html('');
+			}
 		});
 	});
 
