@@ -83,6 +83,10 @@ p {
 .toolLvl, .skillLvl {
 	float: right;
 }
+.skillLvl img {
+	height: 15px;
+	width: 15px;
+}
 h1.title {
 	margin-top: 0;
 	padding: 10px;
