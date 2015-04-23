@@ -59,14 +59,14 @@ $(function() {
 		});
 	});
 
-	$("#portfolioButton, #myPortfolio").click(function() {
+	$("#portfolioButton").click(function() {
 		$("#homeTab").hide();
 		$("#contactTab").hide();
 		$("#portfolioTab").show();
 		$("#skillsTab").hide();
 		$("#resumeTab").hide();
 
-		$("#portfolioButton, #myPortfolio").fadeOut("slow", function() {
+		$("#portfolioButton").fadeOut("slow", function() {
 			$("#homeButton").fadeIn("slow");
 			$("#contactButton").fadeIn("slow");
 			$("#skillsButton").fadeIn("slow");
