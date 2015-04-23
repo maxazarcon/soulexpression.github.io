@@ -42,8 +42,6 @@ $(function() {
 			$("#skillsButton").fadeIn("slow");
 			$("#resumeButton").fadeIn("slow");
 		});
-		
-		location.hash = '#home';
 	});
 
 	$("#contactButton").click(function() {
@@ -59,11 +57,9 @@ $(function() {
 			$("#skillsButton").fadeIn("slow");
 			$("#resumeButton").fadeIn("slow");
 		});
-		
-		location.hash = '#contact';
 	});
 
-	$("#portfolioButton").click(function() {
+	$("#portfolioButton, #myPortfolio").click(function() {
 		$("#homeTab").hide();
 		$("#contactTab").hide();
 		$("#portfolioTab").show();
@@ -76,8 +72,6 @@ $(function() {
 			$("#skillsButton").fadeIn("slow");
 			$("#resumeButton").fadeIn("slow");
 		});
-		
-		location.hash = '#portfolio';
 	});
 
 	$("#skillsButton").click(function() {
@@ -93,8 +87,6 @@ $(function() {
 			$("#portfolioButton").fadeIn("slow");
 			$("#resumeButton").fadeIn("slow");
 		});
-		
-		location.hash = '#skills';
 	});
 
 	$("#resumeButton").click(function() {
@@ -110,13 +102,5 @@ $(function() {
 			$("#portfolioButton").fadeIn("slow");
 			$("#skillsButton").fadeIn("slow");
 		});
-		
-		location.hash = '#resume';
 	});
-});
-
-$(window).on('hashchange', function(){
-	if (location.hash === '') {
-		$("div#sectionWrapper").html('');
-	}
 });
