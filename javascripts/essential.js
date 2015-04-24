@@ -73,7 +73,7 @@ $(function() {
 			$("#resumeButton").fadeIn("slow");
 		});
 	});
-
+	
 	$("#skillsButton").click(function() {
 		$("#homeTab").hide();
 		$("#contactTab").hide();
