@@ -2,7 +2,6 @@
 
 $(document).ready(function() {
 	var setWidth = $("body").width();
-	alert(setWidth);
 	$("body").width(setWidth);
 });
 
@@ -17,6 +16,7 @@ $(document).ready(function(){
 		$("#skillsTab").load("tabs/skills.html");
 		$("#resumeTab").load("tabs/resume.html");
 	} else {
+		alert("This should work.");
 		$("#homeTab").load("tabs/home.html");
 		$("#contactTab").load("tabs/contact.html");
 		$("#portfolioTab").load("tabs/portfolio.html");
