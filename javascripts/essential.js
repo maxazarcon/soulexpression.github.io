@@ -9,7 +9,7 @@ $(document).ready(function() {
 // Load files into tabs
 
 $(document).ready(function(){
-	if ($("body").width() <= 980){
+	if ($("body").width() < 981){
 		$("#homeTab").load("tabs/home.html");
 		$("#contactTab").load("tabs/contact.html");
 		$("#portfolioTab").load("tabs/portfolio.html");
