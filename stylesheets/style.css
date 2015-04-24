@@ -157,7 +157,7 @@ td.skillSet {
 	padding: 0 10px;
 	width: 100%;
 }
-td.skillItem{
+table.skillTable{
 	width: 100%;
 }
 .dark {
