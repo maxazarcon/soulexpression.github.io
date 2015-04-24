@@ -153,9 +153,12 @@ h2.title {
 	border-radius: 10px;
 	max-width: 100%;
 }
-td {
+td.skillSet {
 	padding: 0 10px;
-	width: 50%;
+	width: 100%;
+}
+td.skillItem{
+	width: 100%;
 }
 .dark {
 	background-color: rgba(0,0,0,.1);
