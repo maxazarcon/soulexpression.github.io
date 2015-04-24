@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
 	var setWidth = $("body").width();
-
+	alert(setWidth);
 	$("body").width(setWidth);
 });
 
