@@ -166,3 +166,6 @@ table.skillTable{
 .skillItem {
 	display: inline;
 }
+#socialNets img {
+	height: 65px;
+}
