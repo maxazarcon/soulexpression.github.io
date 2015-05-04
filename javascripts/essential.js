@@ -1,19 +1,20 @@
-// Set body width to viewport ------------------------
+// Set body width and height to viewport ------------------------
 
 $(document).ready(function() {
-	var setWidth = $("body").width();
+	var setWidth = $(window).width();
 	$("body").width(setWidth);
+	$("body").css({
+		min-height: $(window).height();
+	});
 });
 
-
 // Load files into tabs
-
-$(document).ready(function(){
-		$("#homeTab").load("tabs/home.html");
-		$("#contactTab").load("tabs/contact.html");
-		$("#portfolioTab").load("tabs/portfolio.html");
-		$("#skillsTab").load("tabs/skills.html");
-		$("#resumeTab").load("tabs/resume.html");
+$(document).ready(function() {
+	$("#homeTab").load("tabs/home.html");
+	$("#contactTab").load("tabs/contact.html");
+	$("#portfolioTab").load("tabs/portfolio.html");
+	$("#skillsTab").load("tabs/skills.html");
+	$("#resumeTab").load("tabs/resume.html");
 });
 
 // Hide and show tabs --------------------------------
@@ -72,7 +73,7 @@ $(function() {
 			$("#resumeButton").fadeIn("slow");
 		});
 	});
-	
+
 	$("#skillsButton").click(function() {
 		$("#homeTab").hide();
 		$("#contactTab").hide();
@@ -102,4 +103,4 @@ $(function() {
 			$("#skillsButton").fadeIn("slow");
 		});
 	});
-});
+}); 
