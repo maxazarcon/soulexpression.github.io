@@ -3,8 +3,8 @@
 $(document).ready(function() {
 	var setWidth = $("body").width();
 	var setHeight = $("body").height();
-	$("body, #bg").width(setWidth);
-	$("body, #bg").css('height', setHeight);
+	$("body").width(setWidth);
+	$("body").height(setHeight);
 });
 
 // Load files into tabs
