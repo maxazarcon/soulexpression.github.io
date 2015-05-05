@@ -2,11 +2,19 @@ body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
+	overflow-y: scroll;
+}
+#bg {
+	position: static;
+	z-index: -10;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 	background-image: url('../images/streets.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: scroll;
-	overflow-y: scroll;
+	background-attachment: fixed;
 }
 p {
 	font-size: 1.25em;
