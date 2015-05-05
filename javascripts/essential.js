@@ -2,9 +2,9 @@
 
 $(document).ready(function() {
 	var setWidth = $(window).width();
-	var setHeight = $("#mainBody").height();
+	var setHeight = $(window).height();
 	$("body").width(setWidth);
-	$("body").css('min-height', setHeight);
+	$("body").css('height', setHeight + 60);
 });
 
 // Load files into tabs
