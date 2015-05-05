@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
 	var setWidth = $(window).width();
-	var setHeight = $(window).height();
+	var setHeight = $("#mainBody").height();
 	$("body").width(setWidth);
 	$("body").css('min-height', setHeight);
 });
