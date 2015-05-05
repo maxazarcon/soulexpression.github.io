@@ -3,8 +3,13 @@ body {
 	padding: 0;
 	overflow: hidden;
 }
-.table#containSite{
+table#containAll {
+	width: 100%;
 	height: 100%;
+}
+td#containSite{
+	height: 100%;
+	width: 100%;
 	background-image: url('../images/streets.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
