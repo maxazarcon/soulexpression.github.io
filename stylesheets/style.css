@@ -6,6 +6,7 @@ body {
 #bg {
 	position: fixed;
 	z-index: -10;
+	top: 0;
 	background-image: url('../images/streets.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
