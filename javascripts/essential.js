@@ -7,15 +7,6 @@ $(document).ready(function() {
 	$("body").css('min-height', setHeight);
 });
 
-$(document).ready(function(){
-	var bg= $(body);
-	$(window).resize("resizeBackground");
-	function resizeBackground() {
-		bg.height($(window).height());
-	}
-	resizeBackground();
-});
-
 // Load files into tabs
 $(document).ready(function() {
 	$("#homeTab").load("tabs/home.html");
