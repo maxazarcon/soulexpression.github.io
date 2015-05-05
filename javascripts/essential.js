@@ -4,7 +4,7 @@ $(document).ready(function() {
 	var setWidth = $(window).width();
 	var setHeight = $(window).height();
 	$("body, #bg").width(setWidth);
-	$("body, #bg").css('height', setHeight + 60);
+	$("body, #bg").css('height', setHeight);
 });
 
 // Load files into tabs
