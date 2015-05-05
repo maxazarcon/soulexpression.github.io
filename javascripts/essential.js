@@ -1,8 +1,8 @@
 // Set body width and height to viewport ------------------------
 
 $(document).ready(function() {
-	var setWidth = $(window).width();
-	var setHeight = $(window).height();
+	var setWidth = $("body").width();
+	var setHeight = $("body").height();
 	$("body, #bg").width(setWidth);
 	$("body, #bg").css('height', setHeight);
 });
