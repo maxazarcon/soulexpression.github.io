@@ -1,8 +1,10 @@
 // Set body width and height to viewport ------------------------
 
 $(document).ready(function() {
-	var setWidth = $("body").width();
+	var setWidth = $(window).width();
+	var setHeight = $(window).height();
 	$("body").width(setWidth);
+	$("body").height(setHeight);
 });
 
 // Load files into tabs
