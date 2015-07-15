@@ -164,6 +164,9 @@ h2.title {
 	border-radius: 10px; */
     max-width: 100%;
 }
+.projDescription {
+	margin-bottom: 70px;
+}
 .skillset {
     padding: 0 10px;
     width: 50%;
